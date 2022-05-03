@@ -1,0 +1,7 @@
+web:
+  image: felipeschirmann/portifolio-mdss:v1.0.0
+  ports:
+   - "80:80"
+  environment:
+   - NGINX_HOST=temp.felipeschirmann.dev.br
+   - NGINX_PORT=80
